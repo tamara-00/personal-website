@@ -1,0 +1,282 @@
+*{
+    background: #fff;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+.menu-item, a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.menu-item:hover {
+    color: lightblue;
+}
+
+.logo {
+    font-size: 2em;
+}
+
+.main{
+    font-family: "Arial";
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.firstsentence{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.hobby{
+    height: 306px;
+}
+
+.all{
+    display: flex;
+    padding-right: 20px;
+}
+
+.all h1{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.all p{
+    text-align: justify;
+    background: lightgray;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.last-sentence{
+    font-size: 18.5px;
+    display: flex;
+    justify-content: center;
+}
+
+.last{
+    display: flex;
+    justify-content: right;
+    border-top: 2px solid black;
+    padding: 10px;
+}
+
+.footerimg {
+    height: 50px;
+}
+
+.icons img{
+    height: 140px;
+}
+
+.icons{
+    padding-bottom: 80px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.cont{
+    font-family: "Arial";
+    font-size: 90px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.code{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#me{
+    height: 600px;
+    padding-left: 80px;
+    padding-right: 30px;
+}
+
+.textMe{
+    font-family: "Arial";
+    line-height: 1.5;
+    font-size: 17px;
+    padding-right: 80px;
+    padding-top: 40px;
+    text-align: justify;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.image1{
+    width: 500px;
+    position: relative;
+}
+
+.content, .content2{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.content:hover, .content2:hover{
+    opacity: 1;
+}
+
+.content h1, .content2 h1{
+    font-size: 35px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.content2 h1{
+    text-align: center;
+}
+
+.image3{
+    width: 500px;
+    position: relative;
+}
+
+.wrapper img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.heading, .content2 h1, .content h1{
+    font-family: "Arial";
+    text-align: center;
+}
+
+.content > *{
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+
+.content:hover > *{
+    transform: translateY(0px);
+}
+
+.content2 > *{
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+
+.content2:hover > *{
+    transform: translateY(0px);
+}
+
+.overlay-text h1{
+    background: transparent;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.unitext{
+    font-family: "Arial";
+    line-height: 1.5;
+    font-size: 17px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+.unitext h1{
+    text-align: center;
+    background: beige;
+}
+
+ol li{
+    font-weight: bold;
+}
+
+.containerl {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.containerl ul {
+    list-style: none;
+    padding: 0;
+}
+
+.containerl li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.containerl button {
+    background: #ff4c4c;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 4px 8px;
+}
+
+.containerl button:hover {
+    background: #ff0000;
+}
+
+.text-teh{
+    font-family: "Arial";
+    line-height: 1.5;
+    font-size: 17px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+.tex-hed{
+    text-align: center;
+    background: beige;
+}
+
+.text-teh ul li{
+    font-weight: bold;
+}
+
+.pic-of-teh{
+    width: 100%;
+    border-radius: 2px;
+}
